@@ -1,0 +1,6 @@
+def mini(listado):
+	m=listado[0]
+	for M in listado:
+		if(M<m):
+                    m=M
+	return m
